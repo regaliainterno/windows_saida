@@ -1,4 +1,4 @@
-# Windows Output 1.0
+# Windows Saida 1.0
 
 ---
 
@@ -21,7 +21,6 @@ O **`Windows Output 1.0`** é uma aplicação desenvolvida por **jdfxop** para p
 Este projeto foi construído principalmente com:
 
 * **Python:** Linguagem de programação robusta e versátil.
-* **EqualizerPro:** Utilizado para aprimorar as capacidades de controlo de áudio.
 * **NirCMD:** Uma ferramenta útil para interações com o sistema operacional Windows, que foi um ponto de aprendizagem e superação durante o desenvolvimento.
 
 ---
