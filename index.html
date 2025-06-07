@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio | Lucas Scremin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional de Lucas Scremin - Projetos, vídeos e informações.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a237e;
+            --secondary: #3949ab;
+            --accent: #00bcd4;
+            --bg: #f4f6fb;
+            --white: #fff;
+            --shadow: 0 6px 24px rgba(26,35,126,0.10);
+            --rounded: 15px;
+        }
+        body {
+            font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: #212121;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(120deg, var(--primary), var(--secondary) 80%);
+            color: var(--white);
+            padding: 54px 0 36px 0;
+            text-align: center;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin: 12px 0 8px 0;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.15rem;
+            opacity: 0.93;
+            margin: 0 0 8px 0;
+        }
+        main {
+            max-width: 1100px;
+            margin: 50px auto 50px auto;
+            padding: 0 24px;
+        }
+        .section-title {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-bottom: 25px;
+            border-left: 4px solid var(--accent);
+            padding-left: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .about {
+            margin: 38px 0 42px 0;
+            padding: 26px 32px;
+            background: var(--white);
+            border-radius: var(--rounded);
+            box-shadow: var(--shadow);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .about strong {
+            color: var(--primary);
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 36px;
+        }
+        .project-card {
+            background: var(--white);
+            border-radius: var(--rounded);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.23s, box-shadow 0.23s;
+            border: 1px solid #e2e7f1;
+        }
+        .project-card:hover {
+            transform: translateY(-7px) scale(1.03);
+            box-shadow: 0 12px 36px rgba(26,35,126,0.16);
+            border-color: var(--accent);
+        }
+        .project-video {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #e3e6f0;
+        }
+        .project-info {
+            padding: 22px;
+        }
+        .project-title {
+            font-size: 1.18rem;
+            margin: 0 0 10px 0;
+            color: var(--secondary);
+            font-weight: 600;
+        }
+        .project-desc {
+            font-size: 1rem;
+            color: #444;
+            margin-bottom: 0;
+        }
+        .project-links {
+            margin-top: 14px;
+        }
+        .project-links a {
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: 600;
+            margin-right: 18px;
+            padding: 3px 0;
+            border-bottom: 1px solid transparent;
+            transition: color 0.2s, border-bottom 0.2s;
+        }
+        .project-links a:hover {
+            color: var(--secondary);
+            border-bottom: 1px solid var(--secondary);
+        }
+        @media (max-width: 800px) {
+            header h1 { font-size: 2.1rem; }
+            .about { padding: 20px 10px; }
+        }
+        @media (max-width: 600px) {
+            main { padding: 0 6px; }
+            .section-title { font-size: 1.11rem; }
+            .about { font-size: 0.98rem; }
+        }
+        footer {
+            background: var(--primary);
+            color: #e4e4e4;
+            text-align: center;
+            padding: 22px 0 10px 0;
+            font-size: 1rem;
+            margin-top: 60px;
+        }
+        .email-link {
+            color: #00e4ff;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lucas Scremin</h1>
+        <p>Desenvolvedor Full Stack | Java & Python</p>
+    </header>
+    <main>
+        <section class="about">
+            <p>
+                Sou desenvolvedor em formação, com foco em back-end Java e Python. Tenho ótima base em lógica, estruturas de dados, bancos de dados e frameworks como Spring Boot. Busco aplicar e ampliar meus conhecimentos, entregando soluções eficientes com tecnologia.
+            </p>
+        </section>
+
+        <section>
+            <div class="section-title">Projetos em Destaque</div>
+            <div class="projects-grid">
+                <!-- Exemplo de Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                            frameborder="0" allowfullscreen title="Demo do Projeto 1"></iframe>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-title">API Gerenciamento de Tarefas</div>
+                        <div class="project-desc">
+                            API RESTful desenvolvida em Java com Spring Boot, permitindo cadastro, atualização e consulta de tarefas. Banco de dados relacional e autenticação JWT.
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">GitHub</a>
+                            <a href="#" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Exemplo de Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ysz5S6PUM-U" 
+                            frameborder="0" allowfullscreen title="Demo do Projeto 2"></iframe>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-title">Sistema de Controle de Estoque</div>
+                        <div class="project-desc">
+                            App web com Python e Flask para controle de estoque, histórico de movimentação e relatórios. Interface responsiva e integração com SQLite.
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Lucas Scremin &mdash; Todos os direitos reservados.<br>
+        <a href="mailto:contatolucasscremin@gmail.com" class="email-link">contatolucasscremin@gmail.com</a>
+    </footer>
+</body>
+</html>
