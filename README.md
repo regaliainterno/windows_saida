@@ -1,43 +1,35 @@
-Controlar Audio Windows 1.0
-Sobre o Projeto
-O Controlar Audio Windows 1.0 é um aplicativo desenvolvido em Python que tem como objetivo principal ajudar no controle e gerenciamento de dispositivos de saída de áudio. Com ele, você poderá ter uma visão mais clara e um domínio mais eficiente sobre como o áudio é direcionado no seu sistema.
+Windows_saida 1.0
+🚀 Sobre o Projeto
+O Windows_saida 1.0 é uma aplicação desenvolvida para proporcionar um controle otimizado sobre o volume do sistema Windows. Ele permite que você ajuste o áudio com precisão e, de forma adicional, amplifique o som acima do limite padrão de 100% para uma experiência auditiva mais rica e detalhada.
 
-Funcionalidades
-Controle de Volume Padrão: Ajuste o volume do dispositivo de saída padrão de forma intuitiva através de uma slide bar.
-Boost de Volume para Jogos: Uma opção de "boost" permite aumentar o volume para acima de 100%, com um ganho máximo de 50dB, ideal para imersão em jogos.
-Tecnologias Utilizadas
-Este projeto foi desenvolvido utilizando:
+✨ Funcionalidades
+Controle de Volume Intuitivo: Ajuste o volume do Windows com uma slide bar simples, de 0% a 100%.
+Mute/Unmute Rápido: Botão dedicado para mutar e desmutar o áudio instantaneamente.
+Boost de Volume: Recurso de amplificação de áudio para potencializar a percepção sonora em diferentes cenários.
+🛠️ Tecnologias Utilizadas
+Este projeto foi construído principalmente com:
 
-Python
-Como Usar
-Download e Instalação do Equalizer APO:
+Python: Linguagem de programação robusta e versátil.
+EqualizerPro: Utilizado para aprimorar as capacidades de controle de áudio.
+NirCMD: Uma ferramenta útil para interações com o sistema operacional Windows, que foi um ponto de aprendizado e superação durante o desenvolvimento.
+⚙️ Como Utilizar
+Este aplicativo é distribuído em um formato .exe para facilitar o uso.
 
-Será necessário instalar o Equalizer APO.
-Após a instalação, execute-o. Ele pedirá para selecionar os dispositivos de áudio a serem configurados. Selecione apenas os dispositivos de saída de áudio (como alto-falantes ou fones de ouvido). Jamais selecione microfones. Se tiver múltiplos dispositivos de saída, selecione todos os que deseja controlar. Siga as instruções para concluir a configuração.
-Execução do Aplicativo:
+Execução
+Após baixar o arquivo .zip do aplicativo, basta seguir as instruções contidas nele para a execução. O Windows_saida 1.0 é executado diretamente através de um arquivo .exe gerado, eliminando a necessidade de pré-requisitos complexos ou instalações adicionais.
 
-Após instalar o Equalizer APO e configurar os dispositivos, execute o aplicativo Controlar Audio que estará junto ao download do seu projeto.
-Você pode, se desejar, excluir o arquivo EqualizerAPO-x64-1.4.2.exe da pasta após a instalação, pois ele não será mais necessário.
-Exemplo para desenvolvedores (se você for rodar o código-fonte):
+🐞 Contribuição
+No momento, as contribuições são focadas principalmente em relato de bugs. Sua ajuda em identificar e reportar qualquer problema é muito valiosa para aprimorar a aplicação.
 
-Clone o repositório:
-Bash
+📜 Licença
+Este projeto está licenciado sob a licença MIT. Para mais detalhes sobre os termos e condições, por favor, consulte o arquivo LICENSE no repositório.
 
-git clone https://github.com/seu-usuario/Controlar Audio Windows 1.0.git
-Navegue até o diretório do projeto:
-Bash
+✉️ Contato
+Para qualquer dúvida, suporte ou para relatar um bug, por favor, entre em contato através do e-mail:
 
-cd "Controlar Audio Windows 1.0"
-Instale as dependências (se houver):
-Bash
+E-mail: contatolucasscremin@gmail.com
+Observações para você:
 
-pip install -r requirements.txt
-Execute o aplicativo:
-Bash
-
-python seu_script_principal.py
-Contribuição
-Sinta-se à vontade para abrir issues ou pull requests se tiver sugestões ou encontrar bugs!
-
-Licença
-Este projeto está sob a licença MIT License.
+Arquivo LICENSE: Lembre-se de criar um arquivo chamado LICENSE na raiz do seu repositório e inserir o texto completo da licença MIT nele.
+Landing Page: É uma ótima ideia mencionar o vídeo na landing page (index.html). Isso ajuda a contextualizar o usuário que vê o README e depois o site.
+Privacidade na Distribuição: O README.md agora reflete a natureza da distribuição através do .zip e do .exe, mantendo o foco em como o aplicativo é utilizado por quem já o recebeu, sem focar em como alguém "encontraria" o projeto publicamente.
