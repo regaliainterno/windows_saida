@@ -1,55 +1,68 @@
-# Windows Saida 1.0
+# Windows Saída 1.0
 
 ---
 
 ## 🚀 Sobre o Projeto
 
-O **`Windows Output 1.0`** é uma aplicação desenvolvida por **jdfxop** para proporcionar um controlo otimizado sobre o volume de saída do sistema Windows. Ele permite ajustar o áudio com precisão e, de forma adicional, **amplificar o som acima do limite padrão de 100%**. Embora essa funcionalidade possa, consequentemente, dar vantagens para jogadores de jogos de FPS, o programa não foi criado com esse intuito principal.
+O **`Windows Saída 1.0`** é um utilitário desenvolvido por **jdfxop** para oferecer um controlo de áudio superior no sistema Windows. A aplicação permite não apenas ajustar o volume de saída com precisão, mas também contornar uma limitação comum: o volume máximo do sistema.
+
+Sua principal característica é a capacidade de **amplificar o áudio do sistema para além do limite padrão de 100% (Volume Boost)**. Este recurso é ideal para cenários onde o volume máximo ainda é insuficiente, como em ficheiros de mídia com som baixo, ou para realçar detalhes sonoros cruciais em jogos e filmes.
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Funcionalidades Principais
 
-* **Controlo de Volume Intuitivo:** Ajuste o volume do Windows com uma **barra deslizante** simples, de 0% a 100%.
-* **Mute/Unmute Rápido:** Botão dedicado para mutar e desmutar o áudio instantaneamente.
-* **Volume Boost:** Recurso de amplificação de áudio para potencializar a perceção sonora em diferentes cenários, permitindo aumentar o volume acima de 100%.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-Este projeto foi construído principalmente com:
-
-* **Python:** Linguagem de programação robusta e versátil.
-* **NirCMD:** Uma ferramenta útil para interações com o sistema operacional Windows, que foi um ponto de aprendizagem e superação durante o desenvolvimento.
+* **Controlo de Volume Intuitivo:** Ajuste o volume de saída do Windows de 0% a 100% com uma barra deslizante simples e responsiva.
+* **Amplificação de Volume (Boost):** Aumente o volume de saída do sistema acima do limite de 100%, ideal para potencializar a experiência sonora em filmes, músicas ou jogos.
+* **Mute/Unmute Rápido:** Ative ou desative todo o áudio do sistema instantaneamente com um único clique.
 
 ---
 
-## ⚙️ Como Adquirir e Utilizar
+## 🛠️ Tecnologias e Dependências
 
-Este aplicativo é distribuído num formato `.exe`.
-
-O arquivo `.exe` do **`Windows Output 1.0` foi criado apenas para venda e não para uso público gratuito**. Quem desejar adquirir e utilizar o programa deve entrar no link que consta no vídeo do YouTube do criador.
-
-Para utilizar o programa, será **necessário instalar o Equalizer APO e seguir as instruções que vêm junto com o download**. Após baixar o arquivo `.zip` do aplicativo, basta seguir as instruções contidas nele para a execução. O `Windows Output 1.0` é executado diretamente através de um arquivo `.exe` gerado, eliminando a necessidade de pré-requisitos complexos ou instalações adicionais, exceto pelo Equalizer APO.
+* **Python:** Linguagem de programação principal usada no desenvolvimento da aplicação.
+* **Equalizer APO (Dependência Obrigatória):** A funcionalidade de amplificação de volume do `Windows Saída 1.0` é potencializada por esta poderosa ferramenta de áudio. **É necessário que o utilizador a instale previamente para que o boost funcione.**
+* **NirCMD:** Utilitário de linha de comando utilizado para realizar interações de baixo nível com o sistema operativo Windows de forma eficiente.
 
 ---
 
-## 🐞 Contribuição
+## ⚙️ Como Adquirir e Instalar
 
-No momento, as contribuições são focadas principalmente em **relato de bugs**. Sua ajuda em identificar e reportar qualquer problema é muito valiosa para aprimorar a aplicação.
-Caso tenha notado algum BUG, reporte o mesmo no link: https://forms.gle/xdeKBLiyWsxvcKTu8
+O `Windows Saída 1.0` é uma aplicação comercial, distribuída como um ficheiro executável (`.exe`).
+
+**Este software foi criado para venda e não está disponível para uso público gratuito.** Para adquirir uma licença e fazer o download, por favor, aceda ao link de compra disponibilizado no vídeo de apresentação oficial do criador no YouTube ou em outras plataformas de venda.
+
+**Passos para Instalação:**
+
+1.  **Instale o Pré-requisito:** Antes de mais, faça o download e a instalação do **Equalizer APO** no seu sistema.
+2.  **Adquira e Descarregue:** Compre e descarregue o ficheiro `.zip` do `Windows Saída 1.0` através do link oficial.
+3.  **Execute:** Extraia o conteúdo do ficheiro `.zip` e siga as instruções incluídas para executar o programa. A aplicação é portátil e não requer um processo de instalação complexo.
+
+---
+
+## 🐞 Reportar Bugs
+
+A sua contribuição é fundamental para a melhoria contínua do software. Se encontrar qualquer falha ou comportamento inesperado (bug), por favor, reporte através do formulário oficial:
+
+* **Link para Reporte de Bugs:** [https://forms.gle/xdeKBLiyWsxvcKTu8](https://forms.gle/xdeKBLiyWsxvcKTu8)
 
 ---
 
 ## 📜 Licença
 
-Este projeto está licenciado sob a **licença MIT**. Para mais detalhes sobre os termos e condições, por favor, consulte o arquivo `LICENSE` no repositório.
+Este projeto é um **software comercial e proprietário**. A compra de uma licença concede ao utilizador o direito de uso pessoal e intransferível da aplicação.
+
+**É estritamente proibido:**
+
+* Redistribuir, alugar, vender ou partilhar o software.
+* Realizar engenharia reversa, descompilar ou modificar o código-fonte.
+
+Todos os direitos são reservados ao desenvolvedor, **jdfxop**. A violação dos termos de uso resultará no cancelamento da licença e poderá acarretar medidas legais.
 
 ---
 
 ## ✉️ Contacto
 
-Para qualquer dúvida, suporte ou para relatar um bug, por favor, entre em contacto através do e-mail:
+Para dúvidas, suporte técnico ou outras questões, entre em contacto:
 
 * **E-mail:** contatolucasscremin@gmail.com
