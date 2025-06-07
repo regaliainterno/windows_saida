@@ -4,7 +4,7 @@
 
 ## 🚀 Sobre o Projeto
 
-O **`Windows Saída 1.0`** é um utilitário desenvolvido por **jdfxop** para oferecer um controlo de áudio superior no sistema Windows. A aplicação permite não apenas ajustar o volume de saída com precisão, mas também contornar uma limitação comum: o volume máximo do sistema.
+O **`Windows Saída 1.0`** é um utilitário desenvolvido por **[jdfxop](https://regaliainterno.github.io/jdfxop/)** para oferecer um controlo de áudio superior no sistema Windows. A aplicação permite não apenas ajustar o volume de saída com precisão, mas também contornar uma limitação comum: o volume máximo do sistema.
 
 Sua principal característica é a capacidade de **amplificar o áudio do sistema para além do limite padrão de 100% (Volume Boost)**. Este recurso é ideal para cenários onde o volume máximo ainda é insuficiente, como em ficheiros de mídia com som baixo, ou para realçar detalhes sonoros cruciais em jogos e filmes.
 
@@ -26,16 +26,16 @@ Sua principal característica é a capacidade de **amplificar o áudio do sistem
 
 ---
 
-## ⚙️ Como Adquirir e Instalar
+## ⚙️ Como Adquirir e Utilizar
 
 O `Windows Saída 1.0` é uma aplicação comercial, distribuída como um ficheiro executável (`.exe`).
 
-**Este software foi criado para venda e não está disponível para uso público gratuito.** Para adquirir uma licença e fazer o download, por favor, aceda ao link de compra disponibilizado no vídeo de apresentação oficial do criador no YouTube ou em outras plataformas de venda.
+**Para adquirir o software, visite o portfólio oficial do desenvolvedor.** Lá encontrará as informações mais atualizadas e os links diretos para as plataformas de venda (como Kiwify, Hotmart, etc.).
 
 **Passos para Instalação:**
 
 1.  **Instale o Pré-requisito:** Antes de mais, faça o download e a instalação do **Equalizer APO** no seu sistema.
-2.  **Adquira e Descarregue:** Compre e descarregue o ficheiro `.zip` do `Windows Saída 1.0` através do link oficial.
+2.  **Adquira e Descarregue:** Compre e descarregue o ficheiro `.zip` do `Windows Saída 1.0` através do link encontrado no portfólio oficial.
 3.  **Execute:** Extraia o conteúdo do ficheiro `.zip` e siga as instruções incluídas para executar o programa. A aplicação é portátil e não requer um processo de instalação complexo.
 
 ---
@@ -58,6 +58,13 @@ Este projeto é um **software comercial e proprietário**. A compra de uma licen
 * Realizar engenharia reversa, descompilar ou modificar o código-fonte.
 
 Todos os direitos são reservados ao desenvolvedor, **jdfxop**. A violação dos termos de uso resultará no cancelamento da licença e poderá acarretar medidas legais.
+
+---
+## 👨‍💻 Portfólio do Desenvolvedor
+
+O `Windows Saída 1.0` é um dos projetos de **jdfxop**. Para conhecer o portfólio completo, encontrar links de compra para este e outros softwares, ou explorar mais trabalhos, acesse a página oficial:
+
+* **Página Oficial:** [https://regaliainterno.github.io/jdfxop/](https://regaliainterno.github.io/jdfxop/)
 
 ---
 
