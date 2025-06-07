@@ -39,6 +39,7 @@ Para utilizar o programa, será **necessário instalar o Equalizer APO e seguir 
 ## 🐞 Contribuição
 
 No momento, as contribuições são focadas principalmente em **relato de bugs**. Sua ajuda em identificar e reportar qualquer problema é muito valiosa para aprimorar a aplicação.
+Caso tenha notado algum BUG, reporte o mesmo no link: https://forms.gle/xdeKBLiyWsxvcKTu8
 
 ---
 
