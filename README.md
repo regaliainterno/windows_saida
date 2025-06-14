@@ -14,7 +14,15 @@ Sua funcionalidade estrela é a capacidade de **amplificar o áudio para além d
 
 Assista ao vídeo no YouTube para uma explicação completa e demonstração da aplicação:
 
-[![Vídeo Explicativo - Windows Saída 1.0](https://img.youtube.com/vi/AdMNq-BH2Pw/0.jpg)](https://www.youtube.com/watch?v=AdMNq-BH2Pw)
+<div align="center">
+
+<a href="https://www.youtube.com/watch?v=AdMNq-BH2Pw" target="_blank">
+  <img src="https://img.youtube.com/vi/AdMNq-BH2Pw/0.jpg" alt="Windows Saída 1.0 - Vídeo Explicativo" style="width:50%;max-width:400px;border:1px solid #bbb;border-radius:8px;box-shadow:2px 2px 8px #aaa;">
+  <br>
+  <b>Assista no YouTube</b>
+</a>
+
+</div>
 
 ---
 
