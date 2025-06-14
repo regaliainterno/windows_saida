@@ -10,6 +10,14 @@ Sua funcionalidade estrela é a capacidade de **amplificar o áudio para além d
 
 ---
 
+## 🎬 Vídeo Explicativo
+
+Assista ao vídeo no YouTube para uma explicação completa e demonstração da aplicação:
+
+[![Vídeo Explicativo - Windows Saída 1.0](https://img.youtube.com/vi/AdMNq-BH2Pw/0.jpg)](https://www.youtube.com/watch?v=AdMNq-BH2Pw)
+
+---
+
 ## ✨ Funcionalidades Principais
 
 * **Controle de Volume em Tempo Real:** Ajuste o volume de saída do Windows de 0% a 100% com uma barra deslizante simples e responsiva. O controle é instantâneo e intuitivo.
